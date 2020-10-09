@@ -1,0 +1,19 @@
+[package]
+name = "korg-syro-sys"
+description = "Rust FFI bindings for the KORG SYRO library for interacting with the Volca Sample"
+repository = "https://github.com/glindstedt/korg-syro-sys"
+version = "0.1.0"
+authors = ["Gustaf Lindstedt <gustaflindstedt@protonmail.com>"]
+edition = "2018"
+keywords = ["audio", "bindings"]
+categories = ["multimedia::audio"]
+
+[build-dependencies]
+bindgen = "0.55.1"
+cc = "1.0.61"
+
+[dev-dependencies]
+anyhow = "1.0"
+clap = "2.33"
+korg-syro-sys = { path = "." }
+wav = { git = "https://github.com/Fluhzar/WAV.git", branch = "master" }
