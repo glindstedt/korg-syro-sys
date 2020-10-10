@@ -2,6 +2,7 @@
 name = "korg-syro-sys"
 description = "Rust FFI bindings for the KORG SYRO library for interacting with the Volca Sample"
 repository = "https://github.com/glindstedt/korg-syro-sys"
+license = "LGPL-3.0-or-later"
 version = "0.1.0"
 authors = ["Gustaf Lindstedt <gustaflindstedt@protonmail.com>"]
 edition = "2018"
