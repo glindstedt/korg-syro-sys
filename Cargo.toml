@@ -9,6 +9,15 @@ edition = "2018"
 keywords = ["audio", "bindings"]
 categories = ["multimedia::audio", "external-ffi-bindings"]
 
+include = [
+    "Cargo.toml",
+    "**/*.rs",
+    "wrapper.h",
+    "volcasample/syro/*.[hc]",
+    "**/COPYING",
+    "LICENSE",
+]
+
 [build-dependencies]
 bindgen = "0.55.1"
 cc = "1.0.61"
