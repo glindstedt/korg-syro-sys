@@ -7,7 +7,7 @@ version = "0.1.0"
 authors = ["Gustaf Lindstedt <gustaflindstedt@protonmail.com>"]
 edition = "2018"
 keywords = ["audio", "bindings"]
-categories = ["multimedia::audio"]
+categories = ["multimedia::audio", "external-ffi-bindings"]
 
 [build-dependencies]
 bindgen = "0.55.1"
@@ -17,4 +17,4 @@ cc = "1.0.61"
 anyhow = "1.0"
 clap = "2.33"
 korg-syro-sys = { path = "." }
-wav = { git = "https://github.com/Fluhzar/WAV.git", branch = "master" }
+wav = "0.4.1"
