@@ -1,6 +1,7 @@
 [package]
 name = "korg-syro-sys"
 description = "Rust FFI bindings for the KORG SYRO library for interacting with the Volca Sample"
+documentation = "https://docs.rs/korg-syro-sys"
 repository = "https://github.com/glindstedt/korg-syro-sys"
 license = "LGPL-3.0-or-later"
 version = "0.1.0"
@@ -13,6 +14,7 @@ include = [
     "Cargo.toml",
     "**/*.rs",
     "wrapper.h",
+    "volcasample/pattern/*.[hc]",
     "volcasample/syro/*.[hc]",
     "**/COPYING",
     "LICENSE",
@@ -25,5 +27,4 @@ cc = "1.0.61"
 [dev-dependencies]
 anyhow = "1.0"
 clap = "2.33"
-korg-syro-sys = { path = "." }
 wav = "0.4.1"

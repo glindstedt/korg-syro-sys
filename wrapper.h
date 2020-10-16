@@ -2,3 +2,4 @@
 #include "volcasample/syro/korg_syro_volcasample.h"
 #include "volcasample/syro/korg_syro_comp.h"
 #include "volcasample/syro/korg_syro_func.h"
+#include "volcasample/pattern/volcasample_pattern.h"
