@@ -4,7 +4,7 @@ description = "Rust FFI bindings for the KORG SYRO library for interacting with 
 documentation = "https://docs.rs/korg-syro-sys"
 repository = "https://github.com/glindstedt/korg-syro-sys"
 license = "LGPL-3.0-or-later"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Gustaf Lindstedt <gustaflindstedt@protonmail.com>"]
 edition = "2018"
 keywords = ["audio", "bindings"]
@@ -22,7 +22,7 @@ include = [
 
 [build-dependencies]
 bindgen = "0.55.1"
-cc = "1.0.61"
+cc = "1.0.62"
 
 [dev-dependencies]
 anyhow = "1.0"
